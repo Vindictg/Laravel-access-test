@@ -19,7 +19,7 @@
 		{!!Form::label('Contraseña:')!!}
 		{!!Form::password('password',['class'=>'form-control', 'placeholder'=>'Escribe tu contraseña'])!!}
 	</div>
-	{!!Form::submit('Iniciar sesion', ['class'=>'btn btn-primary'])!!}
+	{!!Form::submit('Iniciar sesión', ['class'=>'btn btn-primary'])!!}
 {!!Form::close()!!} 
 </div>
 

@@ -15,7 +15,7 @@
 		<tbody>
 			<td>{{$user->name}}</td>
 			<td>{{$user->email}}</td>
-			<td>{!!link_to_route('user.edit','Edit', $user->id, ['class'=> 'btn-xs btn-warning'])!!}
+			<td>{!!link_to_route('user.edit','Editar', $user->id, ['class'=> 'btn-xs btn-warning'])!!}
 			{!!Form::open(['route'=>['user.destroy', $user->id], 'method' => 'DELETE'])!!}
 				{!!Form::submit('Eliminar',['class'=>'btn-xs btn-danger'])!!}
 			{!!Form::close()!!}</td>
